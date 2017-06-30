@@ -28,6 +28,7 @@
     "node": ">=6.9.0"
   },
   "dependencies": {
+    "all-subsets": "^1.0.0",
     "minimist": "^1.2.0",
     "recursive-readdir-sync": "^1.0.6"
   },
