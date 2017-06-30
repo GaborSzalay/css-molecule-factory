@@ -18,7 +18,8 @@
   "files": [
     "bin/mol.js",
     "lib/cli.js",
-    "lib/command-run.js"
+    "lib/command-get.js",
+    "lib/command-set.js"
   ],  
   "author": "Gabor Szalay",
   "license": "MIT",
