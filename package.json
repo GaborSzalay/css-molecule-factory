@@ -20,14 +20,15 @@
     "lib/cli.js",
     "lib/command-get.js",
     "lib/command-set.js"
-  ],  
+  ],
   "author": "Gabor Szalay",
   "license": "MIT",
   "engines": {
     "node": ">=6.9.0"
   },
   "dependencies": {
-    "minimist": "^1.2.0"
+    "minimist": "^1.2.0",
+    "recursive-readdir-sync": "^1.0.6"
   },
   "devDependencies": {
     "coveralls": "^2.11.16",
