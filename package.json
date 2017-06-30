@@ -19,6 +19,7 @@
     "bin/mol.js",
     "lib/cli.js",
     "lib/command-get.js",
+    "lib/class-parser.js",
     "lib/command-set.js"
   ],
   "author": "Gabor Szalay",
