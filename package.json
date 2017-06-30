@@ -1,0 +1,36 @@
+{
+  "name": "css-molecule-factory",
+  "version": "0.0.1",
+  "description": "Factory tool to refactor molecules from css atoms",
+  "repository": "GaborSzalay/css-molecule-factory",
+  "main": "index.js",
+  "scripts": {
+    "local": "npm -g install .",
+    "lint": "eslint bin lib __tests__ __mocks__",
+    "pretest": "npm run lint",
+    "test": "jest --coverage",
+    "test:watch": "npm run test -- --watchAll",
+    "coveralls": "cat ./coverage/lcov.info | node_modules/coveralls/bin/coveralls.js"
+  },
+  "bin": {
+    "mol": "bin/mol.js"
+  },
+  "files": [
+    "bin/mol.js",
+    "lib/cli.js",
+    "lib/command-run.js"
+  ],  
+  "author": "Gabor Szalay",
+  "license": "MIT",
+  "engines": {
+    "node": ">=6.9.0"
+  },
+  "dependencies": {
+    "minimist": "^1.2.0"
+  },
+  "devDependencies": {
+    "coveralls": "^2.11.16",
+    "eslint": "^3.15.0",
+    "jest": "^18.1.0"
+  }
+}
